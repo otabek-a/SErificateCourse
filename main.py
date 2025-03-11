@@ -76,7 +76,7 @@ Speaking of **{joke_keyword_original}**, that reminds me of some jokes.
 
 
 def get_jokes(plot: str, verbosity=0) -> tuple[str, list[str]]:
-    words = plot.split()  # Matnni so‘zlarga ajratish
+    words = plot.split()  
     words = [w.strip(",.!;:") for w in words]  # Punktuatsiyani olib tashlash
     
     words = sorted(words, key=len, reverse=True)  # So‘zlarni uzunligi bo‘yicha kamayish tartibida saralash

@@ -9,7 +9,7 @@ class Letter:
         return self.in_word
     
     def is_in_correct_place(self) -> bool:
-        return self.in_correct_place  # Atribut nomi bilan moslashdi
+        return self.in_correct_place 
     
 
 
